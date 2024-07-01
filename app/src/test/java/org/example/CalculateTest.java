@@ -21,7 +21,7 @@ public class CalculateTest {
   public void testSumave() {
     Calculate classUnderTest = new Calculate();
     double expected = 2.5;
-    assertEquals(expected, classUnderTest.sum(2, 3) / 2, 0.0001);
+    assertEquals(expected, classUnderTest.sumave(2, 3), 0.0001);
   }
 
   @Test
