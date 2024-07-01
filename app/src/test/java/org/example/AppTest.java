@@ -15,6 +15,7 @@ public class AppTest {
 
   public void testAppReternHelloWorld() {
     App classUnderTest = new App();
-    assertEquals("Hello World!", classUnderTest.getGreeting());
+    assertEquals("Hello World!"に変更, classUnderTest.getGreeting());
+    /* "Hello World!" -> "Hello World"に変更 */
   }
 }
