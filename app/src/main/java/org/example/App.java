@@ -9,9 +9,12 @@ public class App {
   }
 
   public static void main(String[] args) {
+    int x = 2;
+    int y = 3;
     System.out.println(new App().getGreeting());
-    System.out.print("Sum of 2 and 3 is " + new Calculate().sum(2, 3) + ". ");
-    System.out.println("Average is " + new Calculate().sumave(2, 3) + ".");
+
+    System.out.print("Sum of " + x + " and " + y + " is " + new Calculate().sum(x, y) + ". ");
+    System.out.println("Average is " + new Calculate().sumave(x, y) + ".");
 
     System.out.print("Sum of 0 to 10 is " + new Calculate().sum10() + ". ");
     System.out.println("Average is " + new Calculate().sum10ave() + ".");
